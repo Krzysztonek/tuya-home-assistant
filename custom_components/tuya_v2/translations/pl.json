@@ -1,0 +1,34 @@
+{
+    "config": {
+        "abort": {
+            "cannot_connect": "Błąd połączenia",
+            "invalid_auth": "Błędna autentykacja",
+            "single_instance_allowed": "Już skonfigurowane. Możliwa jest tylko pojedyncza konfiguracja."
+        },
+        "error": {
+            "invalid_auth": "Błędna autentykacja"
+        },
+        "flow_title": "Konfiguracja Tuya",
+        "step": {
+            "project_type":{
+                "title":"Integracja Tuya",
+                "data":{
+                  "tuya_project_type": "Typ projektu chmurowego Tuya"
+                }
+            },
+            "user": {
+                "data": {
+                    "endpoint": "Availability Zone",
+                    "access_id": "Identyfikator dostępu - Access ID",
+                    "access_secret": "Tajny kod dostępu - Access Secret",
+                    "tuya_app_type": "Aplikacja mobilna",
+                    "country_code": "Kraj",
+                    "username": "Konto",
+                    "password": "Hasło"
+                },
+                "description": "Wprowadź swoje dane dostępowe Tuya",
+                "title": "Tuya"
+            }
+        }
+    }
+}
